@@ -15,6 +15,7 @@
 		DFE8378C1CDA2DB20021AA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE8378A1CDA2DB20021AA43 /* LaunchScreen.storyboard */; };
 		DFE837971CDA2DB20021AA43 /* Sample_CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE837961CDA2DB20021AA43 /* Sample_CoreDataTests.swift */; };
 		DFE837A21CDA2DB20021AA43 /* Sample_CoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE837A11CDA2DB20021AA43 /* Sample_CoreDataUITests.swift */; };
+		DFE837B01CDA2DEF0021AA43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE837AF1CDA2DEF0021AA43 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DFE8379D1CDA2DB20021AA43 /* Sample-CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-CoreDataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE837A11CDA2DB20021AA43 /* Sample_CoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_CoreDataUITests.swift; sourceTree = "<group>"; };
 		DFE837A31CDA2DB20021AA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE837AF1CDA2DEF0021AA43 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DFE8377D1CDA2DB20021AA43 /* Sample-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				DFE837AF1CDA2DEF0021AA43 /* User.swift */,
 				DFE8377E1CDA2DB20021AA43 /* AppDelegate.swift */,
 				DFE837801CDA2DB20021AA43 /* ViewController.swift */,
 				DFE837821CDA2DB20021AA43 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE837B01CDA2DEF0021AA43 /* User.swift in Sources */,
 				DFE837871CDA2DB20021AA43 /* Sample_CoreData.xcdatamodeld in Sources */,
 				DFE837811CDA2DB20021AA43 /* ViewController.swift in Sources */,
 				DFE8377F1CDA2DB20021AA43 /* AppDelegate.swift in Sources */,
